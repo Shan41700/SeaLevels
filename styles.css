@@ -1,0 +1,271 @@
+/*
+    #7cbec0
+	#408285
+	#014042
+    #a9c7c9
+*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+
+
+body{
+    background: url(assets/bg3.png);
+    background-position: bottom;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    
+}
+
+h1{
+    text-align:center;
+    padding-top:20px;
+    text-decoration:underline;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+
+
+/*Navigation*/
+header{
+    height:100px;
+    background-color:#7cbec0;
+    display:flex;
+}
+
+header img{
+    width:80px;
+    height:80px;
+    
+    margin:10px 20px;
+}
+
+
+nav{
+    position:absolute;
+    right:15px;
+    margin-top: 20px;
+}
+
+
+nav li{
+    display:inline-block;
+    padding: 0px 20px;
+    font-size: 24px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover{
+   text-decoration: underline;
+   text-decoration-style: wavy;
+}
+
+
+/*Footer*/
+footer{
+    height:125px;
+    width:100%;
+    margin-top: calc(100vh - 450px);
+    background-color:#7cbec0;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color:#fff;
+}
+
+footer a:hover{
+    background-color: rgba(255,255,255,.25);
+}
+
+#social{
+    display:flex;
+}
+
+#social a{
+    display:inline-block;
+    padding:10px;
+    width:50%;
+    border:2px solid #fff;
+}
+
+#footNav{
+    margin-top:20px;
+}
+
+#footNav a{
+    display:inline-block;
+    margin: 0px 20px;
+    padding:0 25px;
+    border: 1px solid #fff;
+    font-size:20px;
+}
+
+/*Background*/
+.back{
+    width:100%;
+    height:500px;
+}
+
+.back img{
+    width:100%;
+    max-height:100%;
+}
+
+
+
+/*Home Page*/
+#mainGraphic{
+    text-align:center;
+    margin:50px;
+}
+
+#pagesLinks{
+    display:flex;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.page{
+    background-color:#408285;
+    border:1px solid #fff;
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+    display:inline-block;
+    text-align: center;
+    margin:10px 60px;
+        
+    max-height:100%;
+}
+
+.page a{
+    display:inline-block;
+    text-decoration: none;
+    color:#fff;
+    padding-top:85px;
+    
+}
+
+.page:hover{
+    background-color:#7cbec0;
+    font-size:30px;
+    width:225px;
+    height:225px;
+}
+
+
+
+/*Causes Page*/
+#causes{
+    text-align:center;
+}
+#causes p{
+    text-align:left;
+    margin:20px 80px;
+}
+
+#causes img{
+    margin:30px;
+}
+
+
+/*Effects Page*/
+#effectsMain{
+    margin-bottom:50px;
+}
+
+.effectRow{
+    display:flex;
+    margin:20px 100px;
+}
+
+.effectImg{
+    width:45%;
+    margin: 0px 10px;
+}
+
+.effectInfo{
+    width:60%;
+    margin: 0px 10px;
+}
+
+
+
+/*Solutions Page*/
+#solutionsMain{
+    text-align:center;
+}
+
+.solutionsRow{
+    display:flex;
+    align-items:flex-start;
+    justify-content: center;
+    margin:20px 0px 100px 0px;
+    padding-bottom:20px;
+
+}
+
+.sGrid{
+    display:grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 200px 200px;
+    justify-content: center;
+    width:50%;
+    height:100%;
+}
+
+.sImg{
+    width:30%;
+}
+
+.sImg img{
+    max-width:100%;
+    max-height:100%;
+}
+
+
+.s {
+    border:1px solid #000;
+    padding:40px 20px;
+}
+
+
+/*About Page*/
+#about{margin-bottom:650px;}
+
+#aboutText{
+    margin:20px 80px;
+    font-size:18px;
+    background-image: linear-gradient(#fff,#7cbec0);
+    padding:40px;
+    border-radius:20px;
+}
+
+
+#aboutImg{
+    text-align:center;
+    margin:30px;
+}
+
+#aboutImg img{
+    height:300px;
+    width:300px;
+}
+
+
+
+
+
+
