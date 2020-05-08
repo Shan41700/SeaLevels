@@ -10,7 +10,7 @@
 <body>
    <header>
        <img src="assets/logo.png">
-       <div id="mobileNav"><a href="#">&#9776</a></div>
+       <div id="mobileNav"><a href="#"><img src="assets/mobileNav2.png"></a></div>
        <nav>
            <ul>
                <li><a href="cause.html">Causes</a></li>
@@ -64,6 +64,22 @@
            <a href="about.html">About Us</a>
        </div>
    </footer>
+   
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $('#mobileNav').click(function(){
+                $('nav').toggle();
+            });
+            
+            $(window).resize(function(){
+                if(window.innerWidth >575){
+                    $('nav').show();
+                };
+            });
+            
+        </script>
+
     
 </body>
 </html>

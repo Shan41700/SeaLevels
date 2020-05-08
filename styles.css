@@ -179,6 +179,8 @@ footer a:hover{
 
 #causes img{
     margin:30px;
+    max-width:100%;
+    max-height:100%;
 }
 
 
@@ -198,8 +200,13 @@ footer a:hover{
 }
 
 .effectImg{
-    width:45%;
-    margin: 0px 10px;
+   width:45%;
+   margin: 5px 20px;
+}
+
+.effectImg img{
+    max-width:100%;
+    max-height:100%;
 }
 
 .effectInfo{
@@ -296,12 +303,36 @@ footer a:hover{
     }
     
     /*Nav*/
-    header img{
-        margin:10px auto;
+    header img{ margin:10px auto;}
+    header a{ margin:0 auto;}
+    
+    nav{
+        display:none;
+        width: calc(100vw); 
+        text-align:center;
+        background-color:#7cbec0;
+        position: absolute;
+        right:0px;
+        top: 10px;
+    }
+    
+    nav li{
+        display:block;
+        border: 1px solid #fff;
     }
     
     #mobileNav{
         display:inline-block;
+        position:absolute;
+        top: 5px;
+        left:10px;
+        width:40px;
+        height:30px;
+    }
+    
+    #mobileNav img{ 
+        max-width:100%;
+        max-height:100%;
     }
     
     
@@ -347,7 +378,6 @@ footer a:hover{
     
     
     /*Causes Page*/
-    
     #causes{
         margin-bottom:50px;
     }
@@ -380,6 +410,17 @@ footer a:hover{
     .effectInfo h2{
         text-align:center;
         padding-bottom:10px;
+    }
+    
+    .effectImg{
+        width:80%;
+        height:175px;
+        margin:20px auto;
+    }
+    
+    .effectImg img{
+        min-height:100%;
+        min-width:100%;
     }
     
     

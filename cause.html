@@ -10,7 +10,7 @@
 <body>
    <header>
        <a href="index.html"><img src="assets/logo.png"></a>
-       <div id="mobileNav"><a href="#">&#9776</a></div>
+       <div id="mobileNav"><a href="#"><img src="assets/mobileNav2.png"></a></div>
        <nav>
            <ul>
                <li><a href="cause.html">Causes</a></li>
@@ -26,7 +26,9 @@
       
        <img src="assets/">
        
-       <p>One of the reasons as to why the ocean and the sea levels have risen over time is due to the change in global warming. The increase of the heat throughout different parts of the world, including those where temperatures should be below 0, has affected the icebergs and other land causing it to melt away. Due to this the ocean starts to warm up; and with water warming up, it expands.</p>
+       <p>One of the reasons as to why the ocean and the sea levels have risen over time is due to global warming. The increase in heat throughout different parts of the world, including those where temperatures should be below zero, has affected the icebergs, causing them melt away. Over 1,700 trillion pounds of glacial ice melts from the land into the sea each year. As glacial ice melts, sea levels rise everywhere, and ice from as far as Antarctica can impact America’s coast.Thermal expansion is the scientific term for expanding water, and it is responsible for about one-third of global sea level rise. As the ocean gets warmer each year, it expands, raising the sea level.</p>
+       
+       <p> Land sinkage also affects global sea levels. Sea levels are measured relative to land, which means that when the ground sinks lower, sea levels reach higher. While the impact of land sinkage is not as significant as other contributors, in some places it’s responsible for more than half of the sea level rise. </p>
        
        <p>According to the National Oceanic and Atmospheric Administration, sea levels are more likely to rise at a faster pace over the next centuries, then this current century.</p>
    </div>
@@ -46,5 +48,19 @@
            <a href="about.html">About Us</a>
        </div>
    </footer>
+   
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $('#mobileNav').click(function(){
+                $('nav').toggle();
+            });
+            
+            $(window).resize(function(){
+                if(window.innerWidth >575){
+                    $('nav').show();
+                };
+            });
+            
+        </script>
 </body>
 </html>
