@@ -388,6 +388,11 @@ footer a:hover{
         border-radius:20px;
     }
     
+    #causes img{
+        max-width:100%;
+        margin: 20px 50px;
+    }
+    
     
     /*Effects Page*/
     .effectRowA{
@@ -397,7 +402,7 @@ footer a:hover{
     
     .effectRowB{
         flex-direction: column;
-        margin:25px;
+        margin:40px;
     }
     
     .effectInfo{
@@ -413,7 +418,7 @@ footer a:hover{
     }
     
     .effectImg{
-        width:80%;
+        width:90%;
         height:175px;
         margin:20px auto;
     }
